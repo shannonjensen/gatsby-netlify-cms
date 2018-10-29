@@ -8,31 +8,23 @@ bios:
         title: Co-founder
         text: Here is Anya's bio
         links:
-            -   image: /img/coffee.png
-                alt: Twitter
+            -   type: Twitter
                 link: http://www.twitter.com
-            -   image: /img/coffee.png
-                alt: Facebook
+            -   type: Facebook
                 link: http://www.facebook.com
-            -   image: /img/coffee.png
-                alt: LinkedIn
+            -   type: LinkedIn
                 link: http://www.linkedin.com 
-            -   image: /img/coffee.png
-                alt: Email
+            -   type: Email
                 link: mailto:anya@gmail.com
     -   name: Chantelle Bell
         title: Co-founder
         text: Here is Chantelle's bio
         links:
-            -   image: /img/coffee.png
-                alt: Twitter
+            -   type: Twitter
                 link: http://www.twitter.com
-            -   image: /img/coffee.png
-                alt: Facebook
+            -   type: Facebook
                 link: http://www.facebook.com
-            -   image: /img/coffee.png
-                alt: LinkedIn
+            -   type: LinkedIn
                 link: http://www.linkedin.com 
-            -   image: /img/coffee.png
-                alt: Email
+            -   type: Email
                 link: mailto:anya@gmail.com
