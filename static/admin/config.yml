@@ -8,12 +8,12 @@ public_folder: /img
 collections:
   - name: "pages"
     label: "Pages"
+    editor:
+      preview: false
     files:
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
-        editor:
-          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
