@@ -35,7 +35,60 @@ collections:
             {label: "Image", name: "image", widget: "image"}
           ]}
           - {label: "Contact Heading", name: "contactHeading", widget: "string"}
-
+      - file: "src/pages/home/index.md"
+        label: "How It Works"
+        name: "home"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: "Banner", name: "banner", widget: "object", fields: [
+            {label: "Text", name: "text", widget: "string"},
+            {label: "Image", name: "image", widget: "image"}
+          ]}
+          - {label: "Section One", name: "section1", widget: "object", fields: [
+            {label: "Text", name: "text", widget: "string"},
+            {label: "Button Text", name: "buttonText", widget: "string"}
+          ]}
+          - {label: "Section Two", name: "section2", widget: "object", fields: [
+            {label: "First Text", name: "text1", widget: "text"},
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Second Text", name: "text2", widget: "text"},
+            {label: "Button Text", name: "buttonText", widget: "string"}
+          ]}
+          - {label: "Section Three", name: "section3", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Text", name: "text", widget: "text"}
+          ]}
+          - {label: "Section Four", name: "section4", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Step One Heading", name: "1heading", widget: "string"},
+            {label: "Step One Text", name: "1text", widget: "text"},
+            {label: "Step Two Heading", name: "2heading", widget: "string"},
+            {label: "Step Two Text", name: "2text", widget: "text"},
+            {label: "Step Three Heading", name: "3heading", widget: "string"},
+            {label: "Step Three Text", name: "3text", widget: "text"}
+          ]}
+          - {label: "Section Five", name: "section5", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Text", name: "text", widget: "text"}
+          ]}
+          - {label: "Section Six", name: "section6", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Text", name: "text", widget: "text"},
+            {label: "Tests", name: "tests", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Link", name: "link", widget: "string"}
+            ]}
+          ]}
+          - {label: "Section Seven", name: "section7", widget: "object", fields: [
+            {label: "Heading", name: "heading", widget: "string"},
+            {label: "Subheading", name: "subheading", widget: "string"},
+            {label: "Notice", name: "notice", widget: "text"},
+            {label: "Contact Text", name: "contactText", widget: "text"},
+            {label: "Contact Button", name: "contactButton", widget: "string"},
+          ]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
