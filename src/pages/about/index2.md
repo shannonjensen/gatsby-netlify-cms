@@ -4,7 +4,7 @@ path: /about
 title: About
 heading: Hi, we are Syrona Women
 bios:
-    - bioImage:
+    bioImage:
         alt: Picture of Anya
         image: /img/products-grid2.jpg
     name: Anya Roy
