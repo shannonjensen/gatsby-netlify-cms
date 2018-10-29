@@ -1,20 +1,13 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
----
-
-
-<!-- ---
-templateKey: 'about-page'
-path: /about
 title: About
 heading: Hi, we are Syrona Women
 bios:
     -   name: Anya Roy
         title: Co-founder
         text: Here is Anya's bio
-        social:
+        links:
             -   image: /img/coffee.png
                 alt: Twitter
                 link: http://www.twitter.com
@@ -30,7 +23,7 @@ bios:
     -   name: Chantelle Bell
         title: Co-founder
         text: Here is Chantelle's bio
-        social:
+        links:
             -   image: /img/coffee.png
                 alt: Twitter
                 link: http://www.twitter.com
@@ -42,4 +35,4 @@ bios:
                 link: http://www.linkedin.com 
             -   image: /img/coffee.png
                 alt: Email
-                link: mailto:anya@gmail.com -->
+                link: mailto:anya@gmail.com
