@@ -11,22 +11,31 @@ collections:
     editor:
       preview: false
     files:
-      - file: "src/pages/about/index2.md"
+      - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Heading", name: "heading", widget: "string"}
+          - {label: "Bio Heading", name: "bioHeading", widget: "string"}
           - {label: "Bios", name: "bios", widget: "list", fields: [
             {label: "Name", name: "name", widget: "string"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Text", name: "text", widget: "text"},
-            {label: "Links", name: "links", widget: "list", fields: [
+            {label: "Social Links", name: "links", widget: "list", fields: [
               {label: "Type", name: "type", widget: "select", options: ["Twitter", "Facebook", "LinkedIn", "Email"]},
               {label: "Link", name: "link", widget: "string"}
             ]}
           ]}
+          - {label: "Media Heading", name: "mediaHeading", widget: "string"}
+          - {label: "Media Links", name: "mediaLinks", widget: "list", fields: [
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Text", name: "text", widget: "text"},
+            {label: "Link", name: "link", widget: "text"},
+            {label: "Image", name: "image", widget: "image"}
+          ]}
+          - {label: "Contact Heading", name: "contactHeading", widget: "string"}
+
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
