@@ -19,7 +19,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         bioHeading
-        bios
+        bios {
+          name
+          title
+          text
+        }
       }
     }
   }
