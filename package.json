@@ -33,6 +33,7 @@
   "main": "n/a",
   "scripts": {
     "start": "npm run develop",
+    "clean": "rimraf .cache public",
     "build": "npm run clean && gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
