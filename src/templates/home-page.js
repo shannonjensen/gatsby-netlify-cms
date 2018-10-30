@@ -1,14 +1,11 @@
 import React from 'react'
-
-export const HomePageTemplate = () => {
-    return (
-        <h1>Home!</h1>
-    )
-}
+import Layout from '../components/Layout'
 
 const HomePage = () => {
     return (
-        <h1>Home!</h1>
+        <Layout>
+            <h1>This is my home page!</h1>
+        </Layout>
     )
 }
 

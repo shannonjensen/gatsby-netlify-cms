@@ -1,0 +1,7 @@
+{
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true,
+    "editor.formatOnSave": true,
+    "javascript.suggestionActions.enabled": false,
+    "window.zoomLevel": 0
+  }
